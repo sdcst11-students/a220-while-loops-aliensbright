@@ -17,3 +17,9 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+x=1
+num=int(input('Enter a number:'))
+while x<=12:
+    m=num*x
+    x=x+1
+    print(m,end=' ')

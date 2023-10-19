@@ -13,3 +13,10 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+x=1
+x1=1
+count=0
+while x<=100:
+    x=x+x1
+    print(x,end=' ')
+    count=count+1
